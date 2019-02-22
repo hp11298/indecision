@@ -1,0 +1,32 @@
+.error{
+    color: $off-white;
+    font-style: italic;
+    margin-top: 2rem;
+    padding: 0 3rem ;
+}
+.form
+{
+    display: flex;
+    padding:1rem;
+}
+.input{
+    background: $dark-blue;
+    border:none;
+    border-bottom:  .3rem solid  darken($dark-blue, 10%);
+    flex-grow: 1;
+    margin-right: 1.5rem;
+    color:white;
+    padding: .7rem;
+}
+
+
+@media (min-width: 45rem) {
+    .form {
+      flex-direction: row;
+    }
+    .input {
+        background: tomato;
+      margin: 0 $s-size 0 0;
+    }
+  }
+  
